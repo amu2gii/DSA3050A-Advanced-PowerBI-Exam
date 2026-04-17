@@ -27,7 +27,8 @@ This project addresses these challenges by transforming raw sales data into an i
 
 ## 5. Dataset Description
 **Source**: Amazon Sales Dataset (`amazon_sales_dataset.csv`)
-The dataset used in this project is sourced from Kaggle. You can access it [here](https://www.kaggle.com/datasets).
+The dataset used in this project is sourced from Kaggle. You can access it;(https://www.kaggle.com/datasets/aliiihussain/amazon-sales-dataset).
+
 **Records**: ~50,000+ transactions  
 **Key Fields**:
 
