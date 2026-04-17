@@ -144,7 +144,7 @@ DIVIDE(
     SUM(Sales[review_count]),
     0
 )
-
+```
 ## Challenges Encountered
 
 ### 1. Data Quality and Integration Issues
