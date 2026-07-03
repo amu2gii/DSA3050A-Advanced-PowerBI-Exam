@@ -62,28 +62,59 @@ The dataset used in this project is sourced from Kaggle. You can access it;(http
    - Loaded `amazon_sales_dataset.csv` into Power BI
    - Used Power Query to inspect data types, nulls, and outliers
 
+     ![Advanced PowerBI Dashboard](screenshots/Screenshot%202026-04-16%20144758.png)
+
 2. **Data Transformation**
    - Converted date columns to proper Date type
    - Created derived columns: `Profit = Revenue - (cost_price * quantity)`
    - Standardized region and category names
 
+    ![Advanced PowerBI Dashboard](screenshots/Screenshot%202026-04-16%20190737.png)
+
+    ![Advanced PowerBI Dashboard](screenshots/Screenshot%202026-04-16%20191005.png)
+
 3. **Data Modeling**
    - Built a star schema with fact table (transactions) and dimension tables (Date, Product, Region)
    - Established relationships using `order_date`, `category`, `region`
 
+     ![Advanced PowerBI Dashboard](screenshots/Screenshot%202026-04-17%20000113.png)
+  
+
 4. **DAX Measure Development**
    - Created key business metrics (see Section 10)
+
+     ![Advanced PowerBI Dashboard](screenshots/Screenshot%202026-04-17%20100557.png)
+
+     ![Advanced PowerBI Dashboard](screenshots/Screenshot%202026-04-17%20101011.png)
+
+     ![Advanced PowerBI Dashboard](screenshots/Screenshot%202026-04-17%20101223.png)
+
+     ![Advanced PowerBI Dashboard](screenshots/Screenshot%202026-04-17%20102113.png)
+
+     ![Advanced PowerBI Dashboard](screenshots/Screenshot%202026-04-17%20102908.png)
+
+     ![Advanced PowerBI Dashboard](screenshots/Screenshot%202026-04-17%20103554.png)
+
+     ![Advanced PowerBI Dashboard](screenshots/Screenshot%202026-04-17%20103812.png)
+
+     ![Advanced PowerBI Dashboard](screenshots/Screenshot%202026-04-17%20104108.png)
    - Implemented time-intelligence functions for YoY/MoM analysis
 
-5. **Visualization Design**
+4. **Visualization Design**
    - Designed responsive report pages: Overview, Regional Analysis, Category Deep-Dive, Payment Insights
    - Applied consistent color scheme, tooltips, and drill-through interactions
+  
+     ![Advanced PowerBI Dashboard](screenshots/Screenshot%202026-04-17%20121929.png)
 
-6. **Testing & Validation**
+     ![Advanced PowerBI Dashboard](screenshots/Screenshot%202026-04-17%20130222.png)
+
+     ![Advanced PowerBI Dashboard](screenshots/Screenshot%202026-04-17%20133118.png)
+
+5. **Testing & Validation**
    - Verified measure accuracy against sample calculations
    - Tested filter interactions and cross-highlighting
 
-7. **Export & Documentation**
+6. **Export & Documentation**
    - Exported key visuals as PNG for screenshots folder
    - Compiled this README and supporting documentation
 
